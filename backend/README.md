@@ -86,7 +86,7 @@ Obtiene una lista paginada de destinos.
 | `search` | `string` | ✅ | Filtra por nombre o descripción (Case insensitive). |
 | `type` | `enum` | ✅ | Filtra por categoría (ej. `CITY`, `BEACH`). |
 | `countryCode`| `string`| ✅ | Código ISO de 2 letras del país. |
-| `mode` | `enum` | ✅ | `popular` (ordena por búsquedas) o `recent` (por fecha). |
+| `mode` | `enum` | ✅ | `recent` (por fecha). |
 
 **Ejemplo de Respuesta (Éxito):**
 
