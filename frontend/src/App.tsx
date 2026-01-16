@@ -6,7 +6,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/destinations" replace />} />
-        <Route path="destinations" element={<Destinations />} />
+        <Route path="/destinations" element={<Destinations />} />
       </Routes>
     </BrowserRouter>
   );
