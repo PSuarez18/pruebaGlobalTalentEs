@@ -1,12 +1,11 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Destinations } from "@/pages/Destinations";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/destinations" replace />} />
-        <Route path="/destinations" element={<Destinations />} />
+        <Route path="/" element={<Destinations />} />
       </Routes>
     </BrowserRouter>
   );
